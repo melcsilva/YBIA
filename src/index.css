@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap');
+@import "tailwindcss";
+
+:root {
+  --color-emerald: #136F63;  /* vida, equilíbrio */
+  --color-petrol: #0F3E49;   /* profundidade, tecnologia */
+  --color-gold: #D9A441;     /* sabedoria, energia */
+  --color-offwhitec: #f4efe9; /* clareza */
+  --color-softblack: #1E1E1E;/* base e contraste */
+
+  --font-main: "Poppins", sans-serif;
+  --font-hero: "Fredericka the Great";
+}
+
+body {
+  font-family: var(--font-main);
+}
+
+.font-hero {
+  font-family: var(--font-hero);
+}
+
+
+@layer utilities {
+  .animate-in {
+    animation-fill-mode: both;
+  }
+
+  .slide-in-from-top {
+    animation-name: slideInFromTop;
+  }
+
+  .duration-500 {
+    animation-duration: 500ms;
+  }
+}
+
+@keyframes slideInFromTop {
+  from {
+    opacity: 0;
+    transform: translateY(-1rem)
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0)
+  }
+
+  
+}

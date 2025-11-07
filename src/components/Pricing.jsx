@@ -24,6 +24,7 @@ export default function Pricing() {
   return (
     <section className="relative py-20 bg-[var(--color-offwhitec)]">
       <div className="max-w-6xl mx-auto px-6 text-center">
+        
         <h2 className="text-5xl font-bold text-[var(--color-softblack)] mb-4">
         Planos Empresariais
         </h2>
@@ -51,7 +52,7 @@ export default function Pricing() {
                   <p className="text-base leading-relaxed">{plan.desc}</p>
                 </div>
                 <button className="mt-8 px-5 py-3 rounded-lg border border-[var(--color-offwhitec)] cursor-pointer hover-[var(--color-gold)] text-[var(--color-offwhitec)] font-semibold hover:bg-[var(--color-gold)]/90 transition">
-                  Saber mais
+                  Contratar
                 </button>
               </div>
             </div>

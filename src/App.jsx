@@ -2,7 +2,7 @@ import NavBar from './components/NavBar'
 import Hero from './components/Hero'
 import Contact from './components/Contact'
 import Pricing from './components/Pricing'
-import Testimonials from './components/Testimonials'
+import Clients from './components/Clients'
 import Footer from './components/Footer'
 import About from './components/About'
 
@@ -13,7 +13,7 @@ function App() {
     <Hero />
     <About />
     <Pricing />
-    <Testimonials />
+    <Clients />
     <Contact />
     <Footer />
   </div>

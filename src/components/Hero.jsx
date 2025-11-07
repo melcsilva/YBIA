@@ -16,7 +16,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="bg-[var(--color-offwhitec)] relative min-h-[120vh] flex flex-col lg:flex-row items-center justify-start overflow-hidden px-6 lg:px-12">
+    <section id="hero" className="bg-[var(--color-offwhitec)] relative min-h-[120vh] flex flex-col lg:flex-row items-center justify-start overflow-hidden px-6 lg:px-12">
       {/* efeito do mouse */}
       <div
         className="absolute inset-0 z-20 opacity-70"

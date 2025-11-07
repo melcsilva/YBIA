@@ -35,7 +35,7 @@ export default function Contact() {
 
   return (
     <section
-      id="contact"
+      id="contato"
       className="relative overflow-hidden bg-[var(--color-offwhitec)] py-20 px-8 lg:px-20 min-h-[100vh] flex items-center justify-center"
     >
       {/* DECORAÇÃO DOURADA */}
@@ -56,9 +56,9 @@ export default function Contact() {
           </p>
 
           <div className="space-y-3">
-            <p className="text-gray-700">📍 Jaguaré, São Paulo - SP</p>
+            <p className="text-gray-700">São Paulo, SP.</p>
             <p className="text-gray-700">
-              📧 Email:{" "}
+              Email:{" "}
               <span className="font-medium">melissasilva245@gmail.com</span>
             </p>
 
@@ -68,7 +68,7 @@ export default function Contact() {
               </p>
               <div className="flex space-x-4 text-[var(--color-emerald)]">
                 <a
-                  href="https://www.instagram.com/teuusuario"
+                  href="https://www.instagram.com/meli.cs"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-[var(--color-petrol)] transition-transform hover:scale-110"
@@ -76,7 +76,7 @@ export default function Contact() {
                   <InstagramIcon size={28} />
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/teuusuario"
+                  href="https://www.linkedin.com/in/melissa-cassia/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-[var(--color-petrol)] transition-transform hover:scale-110"
@@ -84,7 +84,7 @@ export default function Contact() {
                   <LinkedinIcon size={28} />
                 </a>
                 <a
-                  href="https://github.com/teuusuario"
+                  href="https://github.com/melcsilva"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-[var(--color-petrol)] transition-transform hover:scale-110"

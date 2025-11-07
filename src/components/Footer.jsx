@@ -29,23 +29,23 @@ export default function Footer() {
           <div>
             <ul className="space-y-3 text-[var(--color-offwhitec)]">
               <li>
-                <a href="#home" className="hover:text-[var(--color-gold)] transition">
+                <a href="#hero" className="hover:text-[var(--color-gold)] transition">
                   home
                 </a>
               </li>
               <li>
-                <a href="#sobre" className="hover:text-[var(--color-gold)] transition">
-                  sobre
+                <a href="#about" className="hover:text-[var(--color-gold)] transition">
+                  quem somos
                 </a>
               </li>
               <li>
-                <a href="#servicos" className="hover:text-[var(--color-gold)] transition">
-                  serviços
-                </a>
-              </li>
-              <li>
-                <a href="#planos" className="hover:text-[var(--color-gold)] transition">
+                <a href="#pricing" className="hover:text-[var(--color-gold)] transition">
                   planos
+                </a>
+              </li>
+              <li>
+                <a href="#clients" className="hover:text-[var(--color-gold)] transition">
+                  clientes
                 </a>
               </li>
               <li>

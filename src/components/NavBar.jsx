@@ -23,31 +23,31 @@ export default function NavBar() {
           {/* Nav Links */}
           <div className="hidden md:flex items-center space-x-6 lg:space-x-6">
 			<a
-              href="#Hero"
-              className="text-[var(--color-offwhitec)] hover:text-[var(--color-gold)] text-sm lg:text-sm"
+              href="#hero"
+              className="text-[var(--color-offwhitec)] hover:text-[var(--color-gold)] text-sm lg:text-sm transition"
             >
               Home
             </a>
             <a
-              href="#features"
-              className="text-[var(--color-offwhitec)] hover:text-[var(--color-gold)] text-sm lg:text-sm"
+              href="#about"
+              className="text-[var(--color-offwhitec)] hover:text-[var(--color-gold)] text-sm lg:text-sm transition"
             >
               Quem somos
             </a>
             <a
               href="#pricing"
-              className="text-[var(--color-offwhitec)] hover:text-[var(--color-gold)] text-sm lg:text-sm"
+              className="text-[var(--color-offwhitec)] hover:text-[var(--color-gold)] text-sm lg:text-sm transition"
             >
               Planos
             </a>
             <a
-              href="#testimonials"
-              className="text-[var(--color-offwhitec)] hover:text-[var(--color-gold)] text-sm lg:text-sm"
+              href="#clients"
+              className="text-[var(--color-offwhitec)] hover:text-[var(--color-gold)] text-sm lg:text-sm transition"
             >
               Clientes
             </a>
 			<a
-              href="#"
+              href="#contato"
               className="text-[var(--color-offwhitec)] text-sm lg:text-sm border border-[var(--color-offwhitec)] px-3 py-1 rounded-full hover:bg-[var(--color-gold)] hover:border-transparent transition"
             >
               Fale conosco

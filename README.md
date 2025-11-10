@@ -37,13 +37,51 @@ Ela representa um novo olhar sobre a IA: **mais humana, sensível e integrada ao
 
 ---
 
-## 🧱 Estrutura do Projeto
+## 💡 Funcionalidades
 
+- Navegação fluida entre seções `(Home, Sobre, Planos, Contato)`
+- Design totalmente responsivo
+- Cards de planos com ícones e descrições
+- Paleta de cores personalizada e simbólica
+- Estrutura otimizada com Vite
+
+## 🧠 Estrutura do site
+
+O site é composto por várias seções principais:
+
+1. **Hero Section** — Apresentação da marca e slogan principal  
+2. **Sobre o LuminAI** — Apresentação do mascote com efeitos animados e destaque visual  
+3. **Planos Empresariais** — Três planos com design em efeito de vidro (*glassmorphism*):  
+   - 🌱 **Semente** — IA básica para automações simples  
+   - 🌿 **Raiz** — Soluções intermediárias com relatórios e análises  
+   - 🌳 **Floresta** — IA completa, preditiva e personalizada  
+4. **Clientes & Resultados** — Números impressionantes com animação dinâmica  
+5. **Footer** — Links de navegação e informações da marca  
+
+---
+
+## 🛠️ Setup e Execução
+### 1. Clone o repositório:
 ```bash
-📂 src/
- ├── 📁 assets/          # Imagens e ícones do projeto
- ├── 📁 components/      # Componentes reutilizáveis (NavBar, Footer, etc)
- ├── 📁 sections/        # Seções da página (Hero, Sobre, Planos, Contato)
- ├── 📁 data/            # Dados dos planos e textos descritivos
- ├── App.jsx             # Estrutura principal do site
- └── main.jsx            # Ponto de entrada do React
+git clone https://github.com/melcsilva/YBIA.git
+cd modern-ux-ui
+```  
+### 2. Instale as dependências:
+```bash
+npm install
+```  
+### 3. Inicie o servidor de desenvolvimento:
+```bash
+npm run dev  
+```
+### 4. Abra o navegador e acesse:
+```bash
+http://localhost:5173
+```
+### 6. Deploy
+Acesse a aplicação em: `(https://melcsilva.github.io/YBIA/)`
+
+---
+## 👥 Autor
+
+* [@melcsilva](https://github.com/melcsilva)

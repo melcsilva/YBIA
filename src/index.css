@@ -20,6 +20,10 @@ body {
   font-family: var(--font-hero);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 
 @layer utilities {
   .animate-in {

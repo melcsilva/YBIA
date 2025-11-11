@@ -71,14 +71,14 @@ export default function NavBar() {
         <div className="md:hidden bg-[var(--color-softblack)]/95 backdrop-blur-lg border-t border-[var(--color-gold)] animate-in slide-in-from-top duration-500">
           <div className="px-4 py-4 sm:py-6 space-y-3 sm:space-y-4">
 			<a
-              href="#Hero"
+              href="#hero"
               onClick={() => setMobileMenuIsOpen(false)}
               className="block text-[var(--color-offwhitec)] hover:text-[var(--color-gold)] text-sm lg:text-base"
             >
               Home
             </a>
             <a
-              href="#features"
+              href="#about"
               onClick={() => setMobileMenuIsOpen(false)}
               className="block text-[var(--color-offwhitec)] hover:text-[var(--color-gold)] text-sm lg:text-base"
             >
@@ -92,14 +92,14 @@ export default function NavBar() {
               Planos
             </a>
             <a
-              href="#testimonials"
+              href="#clients"
               onClick={() => setMobileMenuIsOpen(false)}
               className="block text-[var(--color-offwhitec)] hover:text-[var(--color-gold)] text-sm lg:text-base"
             >
-              Depoimentos
+              Clientes
             </a>
 			<a
-              href="#"
+              href="#contato"
               onClick={() => setMobileMenuIsOpen(false)}
               className="block text-[var(--color-offwhitec)] hover:text-[var(--color-gold)] text-sm lg:text-base"
             >

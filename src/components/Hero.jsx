@@ -16,13 +16,16 @@ export default function Hero() {
   }, []);
 
   return (
-    <section id="hero" className="bg-[var(--color-offwhitec)] relative min-h-[120vh] flex flex-col lg:flex-row items-center justify-start overflow-hidden px-6 lg:px-12">
+    <section
+      id="hero"
+      className="bg-[var(--color-offwhitec)] relative min-h-screen lg:min-h-[120vh]  flex flex-col lg:flex-row items-center justify-center lg:justify-start overflow-hidden px-4 sm:px-8 lg:px-12 py-24 sm:py-32"
+    >
       {/* efeito do mouse */}
       <div
         className="absolute inset-0 z-20 opacity-70"
         style={{
           background: `radial-gradient(400px circle at ${mousePosition.x}px ${mousePosition.y}px, rgba(217, 164, 65, 0.2), transparent 40%)`,
-          mixBlendMode: 'plus-lighter'
+          mixBlendMode: "plus-lighter",
         }}
       />
 
@@ -33,31 +36,31 @@ export default function Hero() {
           alt="hero background"
           className="w-full h-full object-cover object-center"
         />
-        <div className="absolute inset-0 bg-black/60" /> {/*camada escura*/}
+        <div className="absolute inset-0 bg-black/60" /> {/* camada escura */}
       </div>
 
       {/* conteúdo animado */}
       <motion.div
-        className="relative z-30 text-left lg:text-left max-w-2xl"
+        className="relative z-30 text-center lg:text-left max-w-xl sm:max-w-2xl px-2 sm:px-0"
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1.2, ease: "easeOut" }}
       >
-        <h1 className="font-hero text-4xl mt-sm sm:text-5xl lg:text-6xl text-[var(--color-offwhitec)] mb-4 leading-tight">
+        <h1 className="font-hero text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-[var(--color-offwhitec)] mb-4 leading-tight">
           Tecnologia enraizada no futuro.
         </h1>
-        <p className="text-[var(--color-offwhitec)] text-xl">
+        <p className="text-[var(--color-offwhitec)] text-base sm:text-lg md:text-xl max-w-md sm:max-w-lg mx-auto lg:mx-0">
           A inteligência artificial que conecta tecnologia, natureza e propósito.
         </p>
       </motion.div>
 
       {/* animação scroll */}
-      <div className="absolute bottom-20 left-1/2 -translate-x-1/2 z-30">
+      <div className="absolute bottom-10 sm:bottom-16 md:bottom-20 left-1/2 -translate-x-1/2 z-30">
         <DotLottieReact
           src="https://lottie.host/f0863168-2f00-4022-bd99-c82b9c1ed38c/lnGkleUowa.lottie"
           loop
           autoplay
-          style={{ width: 100, height: 100 }}
+          style={{ width: 70, height: 70 }}
         />
       </div>
     </section>
